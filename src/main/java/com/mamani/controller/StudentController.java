@@ -17,6 +17,7 @@ import java.net.URI;
 import java.util.List;
 
 @RestController
+@CrossOrigin(origins = "*")
 @RequestMapping("/api/v1/students")
 @RequiredArgsConstructor
 @Validated
