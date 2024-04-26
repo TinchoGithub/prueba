@@ -32,6 +32,9 @@ dependencies {
     runtimeOnly 'io.r2dbc:r2dbc-h2'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     testImplementation 'io.projectreactor:reactor-test'
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'springdoc:springdoc-openapi-ui:1.5.12' // Agregar la dependencia de Springdoc OpenAPI
+    implementation 'org.springdoc:springdoc-openapi-data-rest:1.5.12' // Dependencia adicional para OpenAPI y Spring Data REST
 }
 
 tasks.named('test') {
