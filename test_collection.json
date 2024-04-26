@@ -1,0 +1,37 @@
+{
+	"info": {
+		"_postman_id": "d7aaa50b-c77e-4a02-9963-8086257e7d5a",
+		"name": "WebFlux - SBP",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "7407851"
+	},
+	"item": [
+		{
+			"name": "student - save",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"documentId\": \"762362721\",\r\n  \"name\": \"Diego Mamani\",\r\n  \"lastname\": \"Mamani Mamani\",  \r\n  \"age\": 7\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "localhost:8080/api/v1/students"
+			},
+			"response": []
+		},
+		{
+			"name": "student - getAll",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "localhost:8080/api/v1/students"
+			},
+			"response": []
+		}
+	]
+}
